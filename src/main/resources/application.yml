@@ -1,0 +1,11 @@
+spring:
+  h2:
+    console:
+      enabled: true
+
+  datasource:
+    generate-unique-name: false
+    name: blog
+
+  jpa:
+    show-sql: true
